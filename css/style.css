@@ -1,0 +1,62 @@
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* common css  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* body css  */
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  overflow: hidden;
+}
+.father {
+  padding: 120px 0;
+}
+.div_one {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 500px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+}
+
+.qr-code {
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 100%;
+}
+.heading {
+  text-align: center;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+.para {
+  text-align: center;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 375px) {
+  .father {
+    padding: 20px  10px 0;
+  }
+  .div_one .heading {
+    font-size: 20px;
+  }
+}
